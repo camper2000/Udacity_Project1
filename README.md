@@ -12,7 +12,6 @@ When the survey result released, developers may may be curious about the salary 
 
 ### Files in the repository
 - _Project1.ipynb_ - the Jupyter notebook, containing all the project code.  
-- _survey_results_public_2019.csv_ - the survery data downloaded from Stack Overflow website  
 
 ### Data preparation
 Drop record of NA data such as age, which is important, not sensitive and not difficult to fill. Developers refused to fill this kind of information are considered not serious, and the answers provided by them are considered not helpful;  
