@@ -1,39 +1,34 @@
-## Project 1
-### Stack Overflow Data 2019 Survey
-### Dataset
-There was a online survey for developers on Stack Overflow in Year 2019. It is about the developer's work and education, tech culture, stack overflow usage, etc. We take the dataset to conduct this project.
+## Project 1 — What Factors have impact on developers’ work and life
+There was a online developer survey on Stack Overflow in Year 2019. It is about the developer's work and education, tech culture, stack overflow usage, etc.
+When the survey result released, developers may may be curious about the salary of other people, how they can earn so much money, why they have a satisfied career development. This project is going to have a simple study about the factors that influence developers’ work and life.
+Which factors affect salary?
+Which factors have impact on career satisfaction?
+Which factors influence the expectation of life in next generation?
 
-### Factors that influence on work and life
-#### Which factors affect salary?
-#### Which factors have impact on career satisfaction?
-#### Which factors influence the expectation of life in next generation?
+### Libraries used
+numpy
+pandas
+matplotlib
 
-### Data preparation and Model
+### Files in the repository
+Project1.ipynb - the Jupyter notebook, containing all the project code.
+survey_results_public_2019.csv - the survery data downloaded from Stack Overflow website
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Data preparation
+Drop record of NA data such as age, which is important, not sensitive and not difficult to fill. Developers refused to fill this kind of information are considered not serious, and the answers provided by them are considered not helpful.
+Fill categorical NA data such as education level with 'Other'
+Create dummy variables for categorical data, for those containing multiple values with seperator ';' in a cell, split them and create dummy variables.
 
- 
+### Model
+Linear Regression
+
 ### Prediction and Evaluation
+The score is very bad at first. After simplifying the model by removing some fields, the score is OK.
+
+### Result
+1. Factors influence salary: years of coding and age are positive, certainly, because experience are important. In my opinion, code review hour should be positive, which helps people to learn. Maybe because it wastes time or sacrifice too working time. Working hours are positive but small, this makes sense, working efficiency is important.
+2. Factors influence career satisfaction: Salary seems not have as much impact on career satisfaction as I thought. Young people seems are more likely to be satisfied by their career development.
+3. Factors influence expectation of life in next generation: older people tend to have negative opinion. Years of coding and hours of code review is positive, maybe experienced people understands information technology changing life better. People satisfied with their career has positive opinion.
 
 ### Improvement in the future
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/camper2000/Udacity_Project1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We can include more parameters and adopt models more complicated.
