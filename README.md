@@ -11,7 +11,8 @@ When the survey result released, developers may may be curious about the salary 
 - _matplotlib_  
 
 ### Files in the repository
-- _Project1.ipynb_ - the Jupyter notebook, containing all the project code.  
+- _Project1.ipynb_ - the Jupyter notebook, containing all the project code  
+- _config.yml_ - theme configuration file
 
 ### Data preparation
 Drop record of NA data such as age, which is important, not sensitive and not difficult to fill. Developers refused to fill this kind of information are considered not serious, and the answers provided by them are considered not helpful;  
