@@ -1,20 +1,23 @@
 ## Project 1
 ### Stack Overflow Data 2019 Survey
+### Dataset
+There was a online survey on Stack Overflow in Year 2019. It is about the coder's work and education, tech culture, stack overflow usage, etc. We take the dataset to conduct this project.
 
-You can use the [editor on GitHub](https://github.com/camper2000/Udacity_Project1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Factors that influence on work and life
+#### Which factors affect salary?
+Which factors have impact on career satisfaction?
+Which factors influence the expectation of life in next generation?
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Data preparation and Model
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+ 
+### Prediction and Evaluation
 
-# Header 1
-## Header 2
-### Header 3
+### Improvement in the future
 
 - Bulleted
 - List
