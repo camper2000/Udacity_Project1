@@ -1,14 +1,12 @@
 ## Project 1
 ### Stack Overflow Data 2019 Survey
 ### Dataset
-There was a online survey on Stack Overflow in Year 2019. It is about the coder's work and education, tech culture, stack overflow usage, etc. We take the dataset to conduct this project.
+There was a online survey for developers on Stack Overflow in Year 2019. It is about the developer's work and education, tech culture, stack overflow usage, etc. We take the dataset to conduct this project.
 
 ### Factors that influence on work and life
 #### Which factors affect salary?
-Which factors have impact on career satisfaction?
-Which factors influence the expectation of life in next generation?
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Which factors have impact on career satisfaction?
+#### Which factors influence the expectation of life in next generation?
 
 ### Data preparation and Model
 
