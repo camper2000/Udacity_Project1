@@ -1,9 +1,6 @@
 ## Project 1 — What Factors have impact on developers’ work and life
 There was a online developer survey on Stack Overflow in Year 2019. It is about the developer's work and education, tech culture, stack overflow usage, etc.  
-When the survey result released, developers may may be curious about the salary of other people, how they can earn so much money, why they have a satisfied career development. This project is going to have a simple study about the factors that influence developers’ work and life.  
-#### Which factors affect salary?  
-#### Which factors have impact on career satisfaction?  
-#### Which factors influence the expectation of life in next generation?  
+When the survey result released, developers may may be curious about the salary of other people, how they can earn so much money, why they have a satisfied career development. This project is going to have a simple study about the factors that influence developers’ work and life.
 
 ### Libraries used
 - _numpy_  
@@ -13,6 +10,15 @@ When the survey result released, developers may may be curious about the salary 
 ### Files in the repository
 - _Project1.ipynb_ - the Jupyter notebook, containing all the project code  
 - _config.yml_ - theme configuration file
+
+### Business Understanding
+#### Which factors affect salary?  
+#### Which factors have impact on career satisfaction?  
+#### Which factors influence the expectation of life in next generation?  
+
+### Data Understanding
+- Correct data type for some fields
+- Find and analyze the categorical fields, then handle the NA value by droping, filling or converting dummy.
 
 ### Data preparation
 Drop record of NA data such as age, which is important, not sensitive and not difficult to fill. Developers refused to fill this kind of information are considered not serious, and the answers provided by them are considered not helpful;  
